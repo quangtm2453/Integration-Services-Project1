@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="20"
-  DTS:VersionGUID="{1AFE7117-A856-41AA-B7E0-75A7EB149C5F}">
+  DTS:VersionBuild="21"
+  DTS:VersionGUID="{9B6C1C18-A084-4DD2-AE3B-FD533EBC5496}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -37,7 +37,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=H:\HK7\Data warehouse\Global_Superstore2.xlsx;Extended Properties=&quot;Excel 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=H:\HK7\Data warehouse\Global_Superstore2.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -53,7 +53,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYfWu8TvWV0e3b8gb4lGlzAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABh5pcehmRpGN6gmhM7/t7hrPE6hwDFImv0gWP1zh/i1wAAAAAOgAAAAAIAACAAAADZ5z0ypDPK+982ynPu9rdY+Fea98xtNglPVjcrxqAckSAAAACCPP5lz44ehdRjRsv8g3ypCqn7E1YdeTtguc+b/iQxAEAAAACVhjgwllKoqDaWRqbSgZxBYQ9wDD6ZtfqSfuFEPpmxdCHyrohVxlYWDlzVkR4XNQSh01IZ5F1fGQbnE7XTWVVe</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYfWu8TvWV0e3b8gb4lGlzAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD4kQe5MbeZQqHYAaeBf80b3TbC/FNUKRydUrwyQJz3OAAAAAAOgAAAAAIAACAAAABB1gDF8V+4/bClAtNpchkOTuHwF1uqZLdEOQoG5AuMiCAAAAC5gSqJeNDfpFUvIMZ5eyUyQZG2R8LqDxzQlXQ9BH8UGEAAAABu9mAOjvQICXW1976+80vqr0NoGkqqXX1ZodjVrps6XknPneteh9WRICIyuBD5l87Av/891+lsoSL5bKTapFum</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -70,7 +70,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYfWu8TvWV0e3b8gb4lGlzAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAC60wyFlZsQy3Le1GNZbQrEet+Fpx9akNA2eunaGcCWAAAAAAOgAAAAAIAACAAAABK/GCybkMTdt+eNrqgRoDAxyXGahr4py5lB2WTGYtCZCAAAABbADKKO9INle7WSekpRjLEE/4lCY83apH5Q1pUOPold0AAAABrDBM0xgDQlwxbwPL2kLm7DH+8xIVJdq+A9wNteh6f/nifEiLoUPsQJsqqSh9zA5EYfpTU31jNjCrc1wmIP0Ic</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYfWu8TvWV0e3b8gb4lGlzAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABAwFsDpsAJ13HwKiFrDIEItyfOQMs4w5eIL4S3nXXMUQAAAAAOgAAAAAIAACAAAAAj+3ABSV9M02UpHrFkpFhQQJPsz2cR/2Lx6GoifCJegyAAAADlMb6+V5Wug5XzOkkye3Ee/Np5J09lOjyFU/AbkuMDCUAAAADjSnkvwmklXCq65Qvry23LtvrE6tQFbJN5AvFjL5du8GekOSruMG3QLDY1/ax790OCMuPMS11Rb33blDREv5qR</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -5558,43 +5558,43 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="188.8,41.6"
-          Id="Package\Data Flow DIM_location"
-          TopLeft="204.999988799294,96.1999993310372" />
-        <NodeLayout
           Size="197.6,41.6"
           Id="Package\Data Flow DIM_Customer"
           TopLeft="406.666644447381,240.066664997273" />
+        <NodeLayout
+          Size="188.8,41.6"
+          Id="Package\Data Flow DIM_location"
+          TopLeft="146.666658653153,188.933332019514" />
         <NodeLayout
           Size="169.6,41.6"
           Id="Package\Data Flow Segment"
           TopLeft="477.999974183739,138.966665738556" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="393.799988799294,116.999999331037">
+          TopLeft="335.466658653153,209.733332019514">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="84.1999853844454,42.766666407519"
+              EndConnector="142.533315530586,-49.9666662809585"
               Start="0,0"
-              End="76.6999853844454,42.766666407519">
+              End="135.033315530586,-49.9666662809585">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="38.0999926922227,0" />
+                    End="67.2666577652928,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="38.0999926922227,0"
-                    Point2="42.0999926922227,0"
-                    Point3="42.0999926922227,4" />
+                    Point1="67.2666577652928,0"
+                    Point2="71.2666577652928,0"
+                    Point3="71.2666577652928,-4" />
                   <mssgle:LineSegment
-                    End="42.0999926922227,38.766666407519" />
+                    End="71.2666577652928,-45.9666662809585" />
                   <mssgle:CubicBezierSegment
-                    Point1="42.0999926922227,38.766666407519"
-                    Point2="42.0999926922227,42.766666407519"
-                    Point3="46.0999926922227,42.766666407519" />
+                    Point1="71.2666577652928,-45.9666662809585"
+                    Point2="71.2666577652928,-49.9666662809585"
+                    Point3="75.2666577652928,-49.9666662809585" />
                   <mssgle:LineSegment
-                    End="76.6999853844454,42.766666407519" />
+                    End="135.033315530586,-49.9666662809585" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5640,146 +5640,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
       </GraphLayout>
     </LayoutInfo>
   </Package>
-  <TaskHost
-    design-time-name="Package\Data Flow DIM_location">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="161.6,41.6"
-          Id="Package\Data Flow DIM_location\Script Component"
-          TopLeft="325.499984155099,189.766665593916" />
-        <NodeLayout
-          Size="126.4,41.6"
-          Id="Package\Data Flow DIM_location\Aggregate"
-          TopLeft="153.33332495557,188.933332019515" />
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Data Flow DIM_location\OLE DB Destination"
-          TopLeft="294.666654145552,311.633331621753" />
-        <NodeLayout
-          Size="140,41.6"
-          Id="Package\Data Flow DIM_location\Excel Source"
-          TopLeft="158.83332495557,88.6999994214376" />
-        <EdgeLayout
-          Id="Package\Data Flow DIM_location.Paths[Output 0]"
-          TopLeft="406.299984155099,231.366665593916">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-26.0333300095468,80.2666660278374"
-              Start="0,0"
-              End="-26.0333300095468,72.7666660278374">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.1333330139187" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,36.1333330139187"
-                    Point2="0,40.1333330139187"
-                    Point3="-4,40.1333330139187" />
-                  <mssgle:LineSegment
-                    End="-22.0333300095468,40.1333330139187" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-22.0333300095468,40.1333330139187"
-                    Point2="-26.0333300095468,40.1333330139187"
-                    Point3="-26.0333300095468,44.1333330139187" />
-                  <mssgle:LineSegment
-                    End="-26.0333300095468,72.7666660278374" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow DIM_location.Paths[Excel Source Output]"
-          TopLeft="228.83332495557,130.299999421438">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-12.3,58.633332598077"
-              Start="0,0"
-              End="-12.3,51.133332598077">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.3166662990385" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.3166662990385"
-                    Point2="0,29.3166662990385"
-                    Point3="-4,29.3166662990385" />
-                  <mssgle:LineSegment
-                    End="-8.29999999999998,29.3166662990385" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-8.29999999999998,29.3166662990385"
-                    Point2="-12.3,29.3166662990385"
-                    Point3="-12.3,33.3166662990385" />
-                  <mssgle:LineSegment
-                    End="-12.3,51.133332598077" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow DIM_location.Paths[Aggregate Output 1]"
-          TopLeft="279.73332495557,210.149998806715">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="45.7666591995296,0"
-              Start="0,0"
-              End="38.2666591995296,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="38.2666591995296,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow DIM_location\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow DIM_location\Excel Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Data Flow DIM_Customer">
     <LayoutInfo>
@@ -5923,7 +5783,183 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Data Flow DIM_Customer\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DIM_Segment]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Data Flow DIM_Customer\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow DIM_Customer\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Data Flow DIM_location">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="161.6,41.6"
+          Id="Package\Data Flow DIM_location\Script Component"
+          TopLeft="325.499984155099,189.766665593916" />
+        <NodeLayout
+          Size="126.4,41.6"
+          Id="Package\Data Flow DIM_location\Aggregate"
+          TopLeft="153.33332495557,188.933332019515" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Data Flow DIM_location\OLE DB Destination"
+          TopLeft="294.666654145552,311.633331621753" />
+        <NodeLayout
+          Size="140,41.6"
+          Id="Package\Data Flow DIM_location\Excel Source"
+          TopLeft="158.83332495557,88.6999994214376" />
+        <EdgeLayout
+          Id="Package\Data Flow DIM_location.Paths[Output 0]"
+          TopLeft="406.299984155099,231.366665593916">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-26.0333300095468,80.2666660278374"
+              Start="0,0"
+              End="-26.0333300095468,72.7666660278374">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.1333330139187" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,36.1333330139187"
+                    Point2="0,40.1333330139187"
+                    Point3="-4,40.1333330139187" />
+                  <mssgle:LineSegment
+                    End="-22.0333300095468,40.1333330139187" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-22.0333300095468,40.1333330139187"
+                    Point2="-26.0333300095468,40.1333330139187"
+                    Point3="-26.0333300095468,44.1333330139187" />
+                  <mssgle:LineSegment
+                    End="-26.0333300095468,72.7666660278374" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow DIM_location.Paths[Excel Source Output]"
+          TopLeft="228.83332495557,130.299999421438">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-12.3,58.633332598077"
+              Start="0,0"
+              End="-12.3,51.133332598077">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.3166662990385" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.3166662990385"
+                    Point2="0,29.3166662990385"
+                    Point3="-4,29.3166662990385" />
+                  <mssgle:LineSegment
+                    End="-8.29999999999998,29.3166662990385" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-8.29999999999998,29.3166662990385"
+                    Point2="-12.3,29.3166662990385"
+                    Point3="-12.3,33.3166662990385" />
+                  <mssgle:LineSegment
+                    End="-12.3,51.133332598077" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow DIM_location.Paths[Aggregate Output 1]"
+          TopLeft="279.73332495557,210.149998806715">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="45.7666591995296,0"
+              Start="0,0"
+              End="38.2666591995296,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="38.2666591995296,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow DIM_location\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow DIM_location\Excel Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6062,19 +6098,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Segment\Excel Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Data Flow Segment\OLE DB Destination">
     <Properties>
       <Property>
@@ -6088,7 +6111,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow DIM_Customer\OLE DB Destination">
+    design-time-name="Package\Data Flow Segment\Excel Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6097,29 +6120,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow DIM_Customer\Lookup">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DIM_Segment]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
