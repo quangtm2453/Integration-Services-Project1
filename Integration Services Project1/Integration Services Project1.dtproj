@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LAPTOP-DVAMMJI7</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYfWu8TvWV0e3b8gb4lGlzAAAAAACAAAAAAAQZgAAAAEAACAAAAD7SKgs3xmIxBdjpuY1yoO+ZbXIH/jYisSwSE1oADXOvgAAAAAOgAAAAAIAACAAAABRdog8R6ZQzvu8RVl8/XjI8sAzWceWw75ruJiGZ0kIppAAAAAk9dl/2lvrUfn/svsuOg9JawGcoE/DCoOObMANUKSksF0zATEm6rf/GGc5PkN81BEdeeI7EXX6557Pgh+uQhSRaB3j5wl1nj5wlqaDFXqBtJviDSoSSIOxvC9naD0H0Ov7AKZ1dZKtiRYT9MVo/eWqtKwWgMJjxy2rKUqPGfiRQ3HD+Bx4FKra3CSEzixxCTVAAAAA0j85pqRFk2bVyIQ7eHqCuGBEZ5LMabdgsh+wQGXzYgEyTCB79wmZYwbiAGiUqKIDdPOZ5Uj4BjXdr37GYguNdw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYfWu8TvWV0e3b8gb4lGlzAAAAAACAAAAAAAQZgAAAAEAACAAAACw8IT9q/W8ZA+49XQyaeYHb/EIBJo31quIHe+gM/smJQAAAAAOgAAAAAIAACAAAABhXYRGpDUV07oWGeXXuF/1D7oAERGyXqNJMaLAQopj3pAAAABdVuSiJnOUEFRKh0XvfHR06u9gSleRsPCpf3YnJsHy0YxbbrWU/3JMfXKN6kUBDiL+8+zcK0E9Eh2J4GahiIJraFMgG0o3nxDxtVZiwBnK5OAaw69Wqm7G5y8Ug9ZGZeieuRiN2QjBvr4VEV/9SBpSyyaSDArIV6Jbp52wdlSj7UrJR27sZ1XQUKZ6U22JSfVAAAAAauc9GP2ZTV7heuoRgC3dbW/LFlfsRnPOZsZuEV3I35EEwlAYrpZhcZxZLmSa8gimc9F3JG4XXqAFbpPa3tgPeA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">109</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{51C26E50-625B-4E97-9612-4B066E31FA1A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{9784E30B-5A70-48A4-AA2C-F38A2AC8C0ED}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -210,7 +210,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=H:\HK7\Data warehouse\Global_Superstore2.xlsx;Extended Properties="Excel 12.0 XML;HDR=YES";</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=H:\HK7\Data warehouse\Global_Superstore2.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -316,7 +316,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -331,7 +331,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -342,11 +342,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=LAPTOP-DVAMMJI7\SQLEXPRESS;User ID=minhquang;Initial Catalog=siu;Provider=MSOLEDBSQL.1;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=LAPTOP-DVAMMJI7\SQLEXPRESS;User ID=minhquang;Initial Catalog=WH_SuperStore;Provider=SQLNCLI11.1;Application Name=SSIS-Package-{440535D8-8F02-444D-8664-01CFA149EDD6}LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang.ConnectRetryCount">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang.ConnectRetryCount">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -361,7 +361,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang.ConnectRetryInterval">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang.ConnectRetryInterval">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -376,7 +376,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang.ConnectUsingManagedIdentity">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang.ConnectUsingManagedIdentity">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -391,7 +391,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -402,11 +402,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">siu</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">WH_SuperStore</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang.Password">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -420,7 +420,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -435,7 +435,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -450,7 +450,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang.UserName">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -465,7 +465,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang 1.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -480,7 +480,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang 1.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -491,11 +491,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=LAPTOP-DVAMMJI7\SQLEXPRESS;User ID=minhquang;Initial Catalog=siu;Provider=MSOLEDBSQL.1;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=LAPTOP-DVAMMJI7\SQLEXPRESS;User ID=minhquang;Initial Catalog=WH_SuperStore;Provider=MSOLEDBSQL.1;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang 1.ConnectRetryCount">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1.ConnectRetryCount">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -510,7 +510,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang 1.ConnectRetryInterval">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1.ConnectRetryInterval">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -525,7 +525,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang 1.ConnectUsingManagedIdentity">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1.ConnectUsingManagedIdentity">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -540,7 +540,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang 1.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -551,11 +551,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">siu</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">WH_SuperStore</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang 1.Password">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -569,7 +569,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang 1.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -584,7 +584,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang 1.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -599,7 +599,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang 1.UserName">
+                <SSIS:Parameter SSIS:Name="CM.LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>

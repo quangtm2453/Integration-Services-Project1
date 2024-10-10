@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="93"
-  DTS:VersionGUID="{A30294CC-A6EE-4385-B500-ACF22AC24C49}">
+  DTS:VersionBuild="161"
+  DTS:VersionGUID="{0F2205A4-D801-413B-87B7-054E39E4003D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -41,36 +41,36 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+      DTS:refId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{B0131DC4-F9AC-4BDB-AA4C-49062E7615FD}"
-      DTS:ObjectName="LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang">
+      DTS:DTSID="{440535D8-8F02-444D-8664-01CFA149EDD6}"
+      DTS:ObjectName="LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=LAPTOP-DVAMMJI7\SQLEXPRESS;User ID=minhquang;Initial Catalog=siu;Provider=MSOLEDBSQL.1;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=LAPTOP-DVAMMJI7\SQLEXPRESS;User ID=minhquang;Initial Catalog=WH_SuperStore;Provider=SQLNCLI11.1;Application Name=SSIS-Package-{440535D8-8F02-444D-8664-01CFA149EDD6}LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYfWu8TvWV0e3b8gb4lGlzAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABIN3KAAhs7zNmaQTHkqAVJn/6ktVh1Q22kYW5IdbePmgAAAAAOgAAAAAIAACAAAACRZUFEZXEF5WsHk2bsCvXkCCPPXI8K0hp5wP5SVdvUgiAAAACIK/Rk864CFT1oo4KNUZrAeADHJ14mj1Bc91HreaLyzUAAAABlJ0rvmagmHkuERNhxDlTmX+yUtp7r/o/apZAgxsNswKGl8L0i3FoWKSXEiSbP6LCMKiITYc9H69aQ12g10XUo</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYfWu8TvWV0e3b8gb4lGlzAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADT7QfThRzvtKfOWHyh9ULvAm3mKXAcNEDmx7tiAvKTYQAAAAAOgAAAAAIAACAAAAA0CBMR4umb89iG15e1m9X8wwBQtIQRHRSPW2OjZvBZLCAAAAB/f0vplyC4NkC3ZoXfkidRiXxjhtcHpa6feyeeCuIAX0AAAAAblOexMbDBy9pF0Z4qM3a/j3Wp5hyWFOd1SLoeMHdo5c81mR+iG0qogRQTKR4YfQaVCf3bUVDuJXpAZyhVdsFu</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang 1]"
+      DTS:refId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{5F71139E-865D-49E8-92C8-79591A2BB76E}"
-      DTS:ObjectName="LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang 1">
+      DTS:DTSID="{CE45D4A3-8156-4E14-ACE2-C9D8FA7B5EF2}"
+      DTS:ObjectName="LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=LAPTOP-DVAMMJI7\SQLEXPRESS;User ID=minhquang;Initial Catalog=siu;Provider=MSOLEDBSQL.1;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=LAPTOP-DVAMMJI7\SQLEXPRESS;User ID=minhquang;Initial Catalog=WH_SuperStore;Provider=MSOLEDBSQL.1;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYfWu8TvWV0e3b8gb4lGlzAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACwuiefoYeUXhDVK1tiPlEHtyiaW3+3huHXWA7uhsTyDAAAAAAOgAAAAAIAACAAAADon2OqbEofYjxCGWXtuty4Lp+bRHMWFHtpN182BnDICyAAAABVfoTKVpXhLVVglsLgb+hHxD7GIJ6yzZaQ9p8ymZnIGUAAAAA6xsW3lZtKOdy5Pifj84uxYrNOGvc9m/tG+JWzb4rZebjvezvbIgb3WgCeltcdh0XzJJZ/jCwKRUFJoHAlCRct</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYfWu8TvWV0e3b8gb4lGlzAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADmNhwF7VmjT4tsO6exUh1S0RZ7b2IQzwMNsmPRd8P+3gAAAAAOgAAAAAIAACAAAABfsOWBTl6JOihPpXpqldj9TAoE4lu/WLammmKCwugVGyAAAADuIe7fg/vn8+4pf+d5AHO8yO1xd7kTRjqhHo8SrI9zA0AAAACdYbEHizig13+aH4MtcKs/WLs+dNF4RGCzPU98DEIbqnMjlCv0tL0v3pMhIz0tkiWpatyfRwj/ZPrv8PJoKNVv</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -808,8 +808,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Category\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2080,7 +2080,7 @@ where [refTable].[Segment Name] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Data Flow DIM_Customer\20:invalid};</property>
+                  name="ParameterMap">#{Package\Data Flow DIM_Customer\Sort.Outputs[Sort Output].Columns[Segment]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -2093,8 +2093,8 @@ where [refTable].[Segment Name] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow DIM_Customer\Lookup.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -2198,7 +2198,7 @@ where [refTable].[Segment Name] = ?</property>
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[DIM_Customer]</property>
+                  name="OpenRowset">[dbo].[DIM_Customer]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -2241,8 +2241,8 @@ where [refTable].[Segment Name] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow DIM_Customer\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3293,7 +3293,7 @@ where [refTable].[Segment Name] = ?</property>
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[DIM_Location]</property>
+                  name="OpenRowset">[dbo].[DIM_Location]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -3336,8 +3336,8 @@ where [refTable].[Segment Name] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow DIM_location\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4718,8 +4718,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
               <connections>
                 <connection
                   refId="Package\Data Flow DIM_OrderPriority\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -5988,7 +5988,7 @@ where [refTable].[Sub-Category] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Data Flow DIM_Product\182:invalid};</property>
+                  name="ParameterMap">#{Package\Data Flow DIM_Product\Sort.Outputs[Sort Output].Columns[Sub-Category]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -6001,8 +6001,8 @@ where [refTable].[Sub-Category] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow DIM_Product\Lookup.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -6149,8 +6149,8 @@ where [refTable].[Sub-Category] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow DIM_Product\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -7069,7 +7069,7 @@ where [refTable].[Sub-Category] = ?</property>
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[DIM_ShipMode]</property>
+                  name="OpenRowset">[dbo].[DIM_ShipMode]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -7112,8 +7112,8 @@ where [refTable].[Sub-Category] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow DIM_ShipMode\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -8844,8 +8844,8 @@ where [refTable].[Category] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow DIM_SubCategory\Lookup.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -8992,8 +8992,8 @@ where [refTable].[Category] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow DIM_SubCategory\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -10771,8 +10771,8 @@ where [refTable].[Ship Mode] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow DIM_Time\Lookup.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -10876,7 +10876,7 @@ where [refTable].[Ship Mode] = ?</property>
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[DIM_Time]</property>
+                  name="OpenRowset">[dbo].[DIM_Time]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -10919,8 +10919,8 @@ where [refTable].[Ship Mode] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow DIM_Time\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -11906,6 +11906,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
       DTS:refId="Package\Data Flow SaleFact"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{11993095-7107-4DE6-9628-17220ECB0F6C}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -12457,8 +12458,8 @@ where [refTable].[City] = ? and [refTable].[State] = ? and [refTable].[Country] 
               <connections>
                 <connection
                   refId="Package\Data Flow SaleFact\Lookup Location.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -12684,8 +12685,8 @@ where [refTable].[Order Priority] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow SaleFact\Lookup Order priority.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -12843,8 +12844,8 @@ where [refTable].[Order Date] = ? and [refTable].[Ship Date] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow SaleFact\Lookup Time.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -12965,7 +12966,7 @@ where [refTable].[Order Date] = ? and [refTable].[Ship Date] = ?</property>
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[OLE DB Destination]</property>
+                  name="OpenRowset">[FACT_Sale]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -13008,8 +13009,8 @@ where [refTable].[Order Date] = ? and [refTable].[Ship Date] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow SaleFact\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -14562,7 +14563,7 @@ where [refTable].[Order Date] = ? and [refTable].[Ship Date] = ?</property>
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[DIM_Segment]</property>
+                  name="OpenRowset">[dbo].[DIM_Segment]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -14605,8 +14606,8 @@ where [refTable].[Order Date] = ? and [refTable].[Ship Date] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Segment\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.siu.minhquang]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -15562,6 +15563,1685 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Data Flow ShippingFact"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{9C3DEA26-79DC-475F-B087-4C5E5EC326B6}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Data Flow ShippingFact"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Data Flow ShippingFact\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Data Flow ShippingFact\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Derived Column.Inputs[Derived Column Input].Columns[Order Date]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Order Date"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Order Date]" />
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Derived Column.Inputs[Derived Column Input].Columns[Ship Date]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Ship Date"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Ship Date]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Data Flow ShippingFact\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Output].Columns[ConvertedOrderDate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Output].Columns[ConvertedOrderDate]"
+                      name="ConvertedOrderDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_DBDATE)([SUBSTRING](#{Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Order Date]},7,4) + "-" + [SUBSTRING](#{Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Order Date]},4,2) + "-" + [SUBSTRING](#{Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Order Date]},1,2))</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_DBDATE)(SUBSTRING([Order Date],7,4) + "-" + SUBSTRING([Order Date],4,2) + "-" + SUBSTRING([Order Date],1,2))</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Output].Columns[ConvertedShipDate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Output].Columns[ConvertedShipDate]"
+                      name="ConvertedShipDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_DBDATE)([SUBSTRING](#{Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Ship Date]},7,4) + "-" + [SUBSTRING](#{Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Ship Date]},4,2) + "-" + [SUBSTRING](#{Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Ship Date]},1,2))</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_DBDATE)(SUBSTRING([Ship Date],7,4) + "-" + SUBSTRING([Ship Date],4,2) + "-" + SUBSTRING([Ship Date],1,2))</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Data Flow ShippingFact\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow ShippingFact\Derived Column 1"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column 1"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Data Flow ShippingFact\Derived Column 1.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Derived Column 1.Inputs[Derived Column Input].Columns[ConvertedOrderDate]"
+                      cachedDataType="dbDate"
+                      cachedName="ConvertedOrderDate"
+                      lineageId="Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Output].Columns[ConvertedOrderDate]" />
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Derived Column 1.Inputs[Derived Column Input].Columns[ConvertedShipDate]"
+                      cachedDataType="dbDate"
+                      cachedName="ConvertedShipDate"
+                      lineageId="Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Output].Columns[ConvertedShipDate]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow ShippingFact\Derived Column 1.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Data Flow ShippingFact\Derived Column 1.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Derived Column 1.Outputs[Derived Column Output].Columns[DeliveryDays]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow ShippingFact\Derived Column 1.Outputs[Derived Column Output].Columns[DeliveryDays]"
+                      name="DeliveryDays"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[DATEDIFF]("DAY",#{Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Output].Columns[ConvertedOrderDate]},#{Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Output].Columns[ConvertedShipDate]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">DATEDIFF("DAY",ConvertedOrderDate,ConvertedShipDate)</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow ShippingFact\Derived Column 1.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Data Flow ShippingFact\Derived Column 1.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow ShippingFact\Excel Source"
+              componentClassID="Microsoft.ExcelSource"
+              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Excel Source"
+              name="Excel Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">Sheet1$</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mapping from parameters in the SQL command to variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow ShippingFact\Excel Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output]"
+                  name="Excel Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Order ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order ID]"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Order ID]"
+                      name="Order ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Ship Mode]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Ship Mode]"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Ship Mode]"
+                      name="Ship Mode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Shipping Cost]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Shipping Cost]"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Shipping Cost]"
+                      name="Shipping Cost"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[City]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[City]"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[City]"
+                      name="City"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[State]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[State]"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[State]"
+                      name="State"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Country]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Country]"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Country]"
+                      name="Country"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Postal Code]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Postal Code]"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Postal Code]"
+                      name="Postal Code"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Market]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Market]"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Market]"
+                      name="Market"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Region]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Region]"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Region]"
+                      name="Region"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Product ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Product ID]"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Product ID]"
+                      name="Product ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Order Date]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order Date]"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Order Date]"
+                      name="Order Date"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Ship Date]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Ship Date]"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Ship Date]"
+                      name="Ship Date"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Row ID]"
+                      dataType="r8"
+                      name="Row ID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Order ID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order Date]"
+                      dataType="wstr"
+                      length="255"
+                      name="Order Date" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Ship Date]"
+                      dataType="wstr"
+                      length="255"
+                      name="Ship Date" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Ship Mode]"
+                      dataType="wstr"
+                      length="255"
+                      name="Ship Mode" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Customer ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Customer ID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Customer Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Customer Name" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Segment]"
+                      dataType="wstr"
+                      length="255"
+                      name="Segment" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="255"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[State]"
+                      dataType="wstr"
+                      length="255"
+                      name="State" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Country]"
+                      dataType="wstr"
+                      length="255"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Postal Code]"
+                      dataType="r8"
+                      name="Postal Code" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Market]"
+                      dataType="wstr"
+                      length="255"
+                      name="Market" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="255"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Product ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Product ID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Category]"
+                      dataType="wstr"
+                      length="255"
+                      name="Category" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Sub-Category]"
+                      dataType="wstr"
+                      length="255"
+                      name="Sub-Category" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Product Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Product Name" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Sales]"
+                      dataType="r8"
+                      name="Sales" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Quantity]"
+                      dataType="r8"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Discount]"
+                      dataType="r8"
+                      name="Discount" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Profit]"
+                      dataType="r8"
+                      name="Profit" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Shipping Cost]"
+                      dataType="r8"
+                      name="Shipping Cost" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order Priority]"
+                      dataType="wstr"
+                      length="255"
+                      name="Order Priority" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output]"
+                  isErrorOut="true"
+                  name="Excel Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Order ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Order ID]"
+                      name="Order ID" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Ship Mode]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Ship Mode]"
+                      name="Ship Mode" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Shipping Cost]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Shipping Cost]"
+                      name="Shipping Cost" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[City]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[City]"
+                      name="City" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[State]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[State]"
+                      name="State" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Country]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Country]"
+                      name="Country" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Postal Code]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Postal Code]"
+                      name="Postal Code" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Market]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Market]"
+                      name="Market" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Region]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Region]"
+                      name="Region" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Product ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Product ID]"
+                      name="Product ID" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Order Date]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Order Date]"
+                      name="Order Date" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Ship Date]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Error Output].Columns[Ship Date]"
+                      name="Ship Date" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow ShippingFact\Lookup"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Lookup"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[DIM_Time]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[DIM_Time]) [refTable]
+where [refTable].[Order Date] = ? and [refTable].[Ship Date] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="Order Date" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Ship Date" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="timeID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ShipmodeID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Order Date]};#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Ship Date]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow ShippingFact\Lookup.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow ShippingFact\Lookup.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Lookup.Inputs[Lookup Input].Columns[Order Date]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Order Date"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Order Date]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Order Date</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Lookup.Inputs[Lookup Input].Columns[Ship Date]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Ship Date"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Ship Date]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Ship Date</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow ShippingFact\Lookup.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Data Flow ShippingFact\Lookup.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Lookup.Outputs[Lookup Match Output].Columns[timeID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Data Flow ShippingFact\Lookup.Outputs[Lookup Match Output].Columns[timeID]"
+                      name="timeID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">timeID</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow ShippingFact\Lookup.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Data Flow ShippingFact\Lookup.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow ShippingFact\Lookup.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Data Flow ShippingFact\Lookup.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow ShippingFact\Lookup Location"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Lookup Location"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[DIM_Location]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[DIM_Location]) [refTable]
+where [refTable].[City] = ? and [refTable].[State] = ? and [refTable].[Country] = ? and [refTable].[Market] = ? and [refTable].[Region] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="City" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="State" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Country" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Market" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Region" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="LocationID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[City]};#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[State]};#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Country]};#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Market]};#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Region]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow ShippingFact\Lookup Location.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow ShippingFact\Lookup Location.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Lookup Location.Inputs[Lookup Input].Columns[City]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="City"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[City]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">City</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Lookup Location.Inputs[Lookup Input].Columns[State]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="State"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[State]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">State</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Lookup Location.Inputs[Lookup Input].Columns[Country]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Country"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Country]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Country</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Lookup Location.Inputs[Lookup Input].Columns[Market]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Market"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Market]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Market</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Lookup Location.Inputs[Lookup Input].Columns[Region]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Region"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Region]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Region</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow ShippingFact\Lookup Location.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Data Flow ShippingFact\Lookup Location.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Lookup Location.Outputs[Lookup Match Output].Columns[LocationID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Data Flow ShippingFact\Lookup Location.Outputs[Lookup Match Output].Columns[LocationID]"
+                      name="LocationID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">LocationID</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow ShippingFact\Lookup Location.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Data Flow ShippingFact\Lookup Location.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow ShippingFact\Lookup Location.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Data Flow ShippingFact\Lookup Location.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Lookup Location.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\Lookup Location.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Lookup Location.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\Lookup Location.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow ShippingFact\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[FACT_Shipping]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow ShippingFact\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-DVAMMJI7\SQLEXPRESS.WH_SuperStore.minhquang 1]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Order ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Order ID"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Order ID]"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Order ID]" />
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Shipping Cost]"
+                      cachedDataType="r8"
+                      cachedName="Shipping Cost"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Shipping Cost]"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Shipping Cost]" />
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Product ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Product ID"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Product ID]"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Product ID]" />
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LocationID]"
+                      cachedDataType="i4"
+                      cachedName="LocationID"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LocationID]"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[LocationID]" />
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[timeID]"
+                      cachedDataType="i4"
+                      cachedName="timeID"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[timeID]"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[timeID]" />
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[DeliveryDays]"
+                      cachedDataType="i4"
+                      cachedName="DeliveryDays"
+                      externalMetadataColumnId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DeliveryDays]"
+                      lineageId="Package\Data Flow ShippingFact\Derived Column 1.Outputs[Derived Column Output].Columns[DeliveryDays]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Order ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Order ID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Shipping Cost]"
+                      dataType="r8"
+                      name="Shipping Cost" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Product ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Product ID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LocationID]"
+                      dataType="i4"
+                      name="LocationID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[timeID]"
+                      dataType="i4"
+                      name="timeID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DeliveryDays]"
+                      dataType="i4"
+                      name="DeliveryDays" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow ShippingFact\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow ShippingFact\Sort"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[Order ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Order ID"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Order ID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[Ship Mode]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Ship Mode"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Ship Mode]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[Shipping Cost]"
+                      cachedDataType="r8"
+                      cachedName="Shipping Cost"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Shipping Cost]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[City]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="City"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[City]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[State]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="State"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[State]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[Country]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Country"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Country]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[Postal Code]"
+                      cachedDataType="r8"
+                      cachedName="Postal Code"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Postal Code]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[Market]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Market"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Market]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[Region]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Region"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Region]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[Product ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Product ID"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Product ID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[Order Date]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Order Date"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Order Date]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[Ship Date]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Ship Date"
+                      lineageId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Ship Date]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[LocationID]"
+                      cachedDataType="i4"
+                      cachedName="LocationID"
+                      lineageId="Package\Data Flow ShippingFact\Lookup Location.Outputs[Lookup Match Output].Columns[LocationID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input].Columns[timeID]"
+                      cachedDataType="i4"
+                      cachedName="timeID"
+                      lineageId="Package\Data Flow ShippingFact\Lookup.Outputs[Lookup Match Output].Columns[timeID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Order ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Order ID]"
+                      name="Order ID"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Order ID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Ship Mode]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Ship Mode]"
+                      name="Ship Mode">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Ship Mode]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Shipping Cost]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Shipping Cost]"
+                      name="Shipping Cost">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Shipping Cost]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[City]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[City]"
+                      name="City">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[City]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[State]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[State]"
+                      name="State">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[State]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Country]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Country]"
+                      name="Country">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Country]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Postal Code]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Postal Code]"
+                      name="Postal Code">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Postal Code]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Market]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Market]"
+                      name="Market">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Market]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Region]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Region]"
+                      name="Region">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Region]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Product ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Product ID]"
+                      name="Product ID">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Product ID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Order Date]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Order Date]"
+                      name="Order Date">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Order Date]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Ship Date]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[Ship Date]"
+                      name="Ship Date">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output].Columns[Ship Date]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[LocationID]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[LocationID]"
+                      name="LocationID">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Lookup Location.Outputs[Lookup Match Output].Columns[LocationID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[timeID]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output].Columns[timeID]"
+                      name="timeID">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Data Flow ShippingFact\Lookup.Outputs[Lookup Match Output].Columns[timeID]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Data Flow ShippingFact.Paths[Derived Column Output]"
+              endId="Package\Data Flow ShippingFact\Derived Column 1.Inputs[Derived Column Input]"
+              name="Derived Column Output"
+              startId="Package\Data Flow ShippingFact\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Data Flow ShippingFact.Paths[Derived Column Output1]"
+              endId="Package\Data Flow ShippingFact\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Data Flow ShippingFact\Derived Column 1.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Data Flow ShippingFact.Paths[Excel Source Output]"
+              endId="Package\Data Flow ShippingFact\Lookup Location.Inputs[Lookup Input]"
+              name="Excel Source Output"
+              startId="Package\Data Flow ShippingFact\Excel Source.Outputs[Excel Source Output]" />
+            <path
+              refId="Package\Data Flow ShippingFact.Paths[Lookup Match Output]"
+              endId="Package\Data Flow ShippingFact\Lookup.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Data Flow ShippingFact\Lookup Location.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Data Flow ShippingFact.Paths[Lookup Match Output1]"
+              endId="Package\Data Flow ShippingFact\Sort.Inputs[Sort Input]"
+              name="Lookup Match Output"
+              startId="Package\Data Flow ShippingFact\Lookup.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Data Flow ShippingFact.Paths[Sort Output]"
+              endId="Package\Data Flow ShippingFact\Derived Column.Inputs[Derived Column Input]"
+              name="Sort Output"
+              startId="Package\Data Flow ShippingFact\Sort.Outputs[Sort Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Execute SQL Task"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{B50829A4-602E-4DF5-95EB-6F822A2F7CDC}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute SQL Task"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{440535D8-8F02-444D-8664-01CFA149EDD6}"
+          SQLTask:SqlStatementSource="ALTER TABLE FACT_Shipping&#xA;ADD CONSTRAINT FK_FACT_Shipping_Product&#xA;FOREIGN KEY ([Product ID])&#xA;REFERENCES DIM_Product([Product ID]);&#xA;&#xA;ALTER TABLE FACT_Shipping&#xA;ADD CONSTRAINT FK_FACT_Shipping_Location&#xA;FOREIGN KEY (LocationID)&#xA;REFERENCES DIM_Location([LocationID]);&#xA;&#xA;ALTER TABLE FACT_Shipping&#xA;ADD CONSTRAINT FK_FACT_Shipping_Time&#xA;FOREIGN KEY (timeID)&#xA;REFERENCES DIM_Time([timeID]);&#xA;&#xA;ALTER TABLE FACT_Sale&#xA;ADD CONSTRAINT FK_FACT_Sale_Customer&#xA;FOREIGN KEY ([Customer ID])&#xA;REFERENCES DIM_Customer([Customer ID]);&#xA;&#xA;ALTER TABLE FACT_Sale&#xA;ADD CONSTRAINT FK_FACT_Sale_Product&#xA;FOREIGN KEY ([Product ID])&#xA;REFERENCES DIM_Product([Product ID]);&#xA;&#xA;ALTER TABLE FACT_Sale&#xA;ADD CONSTRAINT FK_FACT_Sale_Time&#xA;FOREIGN KEY (timeID)&#xA;REFERENCES DIM_Time([timeID]);&#xA;&#xA;ALTER TABLE FACT_Sale&#xA;ADD CONSTRAINT FK_FACT_Sale_Location&#xA;FOREIGN KEY (LocationID)&#xA;REFERENCES DIM_Location([LocationID]);&#xA;&#xA;ALTER TABLE FACT_Sale&#xA;ADD CONSTRAINT FK_FACT_Sale_OrderPriority&#xA;FOREIGN KEY (OrderPriorityID)&#xA;REFERENCES DIM_OrderPriority([OrderPriorityID]);&#xA;&#xA;ALTER TABLE DIM_Product&#xA;ADD CONSTRAINT FK_DIM_Product_SubCategory&#xA;FOREIGN KEY (SubCategoryID)&#xA;REFERENCES DIM_SubCategory([SubCategoryID]);&#xA;&#xA;ALTER TABLE DIM_SubCategory&#xA;ADD CONSTRAINT FK_DIM_SubCategory_Category&#xA;FOREIGN KEY (categoryID)&#xA;REFERENCES DIM_Category([categoryID]);&#xA;&#xA;ALTER TABLE DIM_Customer&#xA;ADD CONSTRAINT FK_DIM_Customer_Segment&#xA;FOREIGN KEY (SegmentID)&#xA;REFERENCES DIM_Segment([SegmentID]);&#xA;&#xA;ALTER TABLE DIM_Time&#xA;ADD CONSTRAINT FK_DIM_Time_ShipMode&#xA;FOREIGN KEY (ShipmodeID)&#xA;REFERENCES DIM_ShipMode([ShipmodeID]);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -15580,6 +17260,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\Data Flow DIM_Customer" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 10]"
+      DTS:CreationName=""
+      DTS:DTSID="{45E9936F-2C7A-4CB6-871D-D1AB1BB00BE2}"
+      DTS:From="Package\Data Flow ShippingFact"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 10"
+      DTS:To="Package\Execute SQL Task" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
@@ -15636,6 +17324,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 8"
       DTS:To="Package\Data Flow SaleFact" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 9]"
+      DTS:CreationName=""
+      DTS:DTSID="{DB8E29C3-3538-49C5-AEC2-776A7612981F}"
+      DTS:From="Package\Data Flow SaleFact"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 9"
+      DTS:To="Package\Data Flow ShippingFact" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -15654,13 +17350,17 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           Id="Package\Data Flow Category"
           TopLeft="472.24812352582,140.399999023676" />
         <NodeLayout
-          Size="197.6,41.6"
+          Size="199.2,41.6"
           Id="Package\Data Flow DIM_Customer"
           TopLeft="431.66664308144,66.9333335744006" />
         <NodeLayout
           Size="188.8,41.6"
           Id="Package\Data Flow DIM_location"
           TopLeft="19.1666656194455,61.5333329054376" />
+        <NodeLayout
+          Size="212,41.6"
+          Id="Package\Data Flow DIM_OrderPriority"
+          TopLeft="274.899985111257,209.733331874874" />
         <NodeLayout
           Size="188.8,41.6"
           Id="Package\Data Flow DIM_Product"
@@ -15678,9 +17378,17 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           Id="Package\Data Flow DIM_Time"
           TopLeft="681.066630241608,137.799999041756" />
         <NodeLayout
+          Size="168,41.6"
+          Id="Package\Data Flow SaleFact"
+          TopLeft="542.552351880589,212.078429869898" />
+        <NodeLayout
           Size="169.6,41.6"
           Id="Package\Data Flow Segment"
           TopLeft="237.166654008958,59.2333329596783" />
+        <NodeLayout
+          Size="188.8,41.6"
+          Id="Package\Data Flow ShippingFact"
+          TopLeft="714.885715795597,264.014705650934" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="207.966665619446,81.1833329325579">
@@ -15705,18 +17413,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="406.766654008958,83.8833332670394">
+          TopLeft="406.766654008958,83.8833332670395">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="24.8999890724822,0"
+              EndConnector="24.899989072482,0"
               Start="0,0"
-              End="17.3999890724822,0">
+              End="17.399989072482,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="17.3999890724822,0" />
+                    End="17.399989072482,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -15727,18 +17435,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="629.26664308144,87.6333332218393">
+          TopLeft="630.86664308144,87.6333332218394">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="47.7666538723653,0"
+              EndConnector="46.1666538723662,0"
               Start="0,0"
-              End="40.2666538723653,0">
+              End="38.6666538723662,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="40.2666538723653,0" />
+                    End="38.6666538723662,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -15853,10 +17561,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="212,41.6"
-          Id="Package\Data Flow DIM_OrderPriority"
-          TopLeft="274.899985111257,209.733331874874" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
           TopLeft="235.374071529379,206.748146855088">
@@ -15891,24 +17595,86 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="168.8,41.6"
-          Id="Package\Data Flow SaleFact"
-          TopLeft="553.266637617682,216.666665159994" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 8]"
-          TopLeft="486.899985111257,233.999998517434">
+          TopLeft="486.899985111257,231.705880872386">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="66.3666525064248,0"
+              EndConnector="55.6523667693319,0"
               Start="0,0"
-              End="58.8666525064248,0">
+              End="48.1523667693319,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="58.8666525064248,0" />
+                    End="48.1523667693319,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 9]"
+          TopLeft="710.552351880589,232.878429869898">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="98.7333639150081,31.1362757810357"
+              Start="0,0"
+              End="98.7333639150081,23.6362757810357">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="94.7333639150081,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="94.7333639150081,0"
+                    Point2="98.7333639150081,0"
+                    Point3="98.7333639150081,4" />
+                  <mssgle:LineSegment
+                    End="98.7333639150081,23.6362757810357" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Execute SQL Task"
+          TopLeft="447.959184627057,308.067226620723" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 10]"
+          TopLeft="714.885715795597,284.814705650934">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-104.52653116854,44.0525209697896"
+              Start="0,0"
+              End="-97.0265311685403,44.0525209697896">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-48.2632655842701,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-48.2632655842701,0"
+                    Point2="-52.2632655842701,0"
+                    Point3="-52.2632655842701,4" />
+                  <mssgle:LineSegment
+                    End="-52.2632655842701,40.0525209697896" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-52.2632655842701,40.0525209697896"
+                    Point2="-52.2632655842701,44.0525209697896"
+                    Point3="-56.2632655842701,44.0525209697896" />
+                  <mssgle:LineSegment
+                    End="-97.0265311685403,44.0525209697896" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16084,9 +17850,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Data Flow DIM_Customer\OLE DB Destination"
-          TopLeft="135.833325911728,268.666664798392" />
+          Size="97.6,41.6"
+          Id="Package\Data Flow DIM_Customer\Sort"
+          TopLeft="326.99999512732,104.999998435378" />
         <NodeLayout
           Size="112.8,41.6"
           Id="Package\Data Flow DIM_Customer\Lookup"
@@ -16095,6 +17861,46 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           Size="140,41.6"
           Id="Package\Data Flow DIM_Customer\Excel Source"
           TopLeft="64.16666643901,60" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Data Flow DIM_Customer\OLE DB Destination"
+          TopLeft="135.833325911728,268.666664798392" />
+        <EdgeLayout
+          Id="Package\Data Flow DIM_Customer.Paths[Sort Output]"
+          TopLeft="375.79999512732,146.599998435378">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="68.0999869788686,102.466667122377"
+              Start="0,0"
+              End="68.0999869788686,94.9666671223769">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47.2333335611884" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,47.2333335611884"
+                    Point2="0,51.2333335611884"
+                    Point3="4,51.2333335611884" />
+                  <mssgle:LineSegment
+                    End="64.0999869788686,51.2333335611884" />
+                  <mssgle:CubicBezierSegment
+                    Point1="64.0999869788686,51.2333335611884"
+                    Point2="68.0999869788686,51.2333335611884"
+                    Point3="68.0999869788686,55.2333335611884" />
+                  <mssgle:LineSegment
+                    End="68.0999869788686,94.9666671223769" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow DIM_Customer.Paths[Lookup Match Output]"
           TopLeft="387.499982106189,269.866665557755">
@@ -16131,10 +17937,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Data Flow DIM_Customer\Sort"
-          TopLeft="326.99999512732,104.999998435378" />
         <EdgeLayout
           Id="Package\Data Flow DIM_Customer.Paths[Excel Source Output]"
           TopLeft="204.16666643901,80.8">
@@ -16166,59 +17968,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow DIM_Customer.Paths[Sort Output]"
-          TopLeft="375.79999512732,146.599998435378">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="68.0999869788686,102.466667122377"
-              Start="0,0"
-              End="68.0999869788686,94.9666671223769">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,47.2333335611884" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,47.2333335611884"
-                    Point2="0,51.2333335611884"
-                    Point3="4,51.2333335611884" />
-                  <mssgle:LineSegment
-                    End="64.0999869788686,51.2333335611884" />
-                  <mssgle:CubicBezierSegment
-                    Point1="64.0999869788686,51.2333335611884"
-                    Point2="68.0999869788686,51.2333335611884"
-                    Point3="68.0999869788686,55.2333335611884" />
-                  <mssgle:LineSegment
-                    End="68.0999869788686,94.9666671223769" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow DIM_Customer\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Data Flow DIM_Customer\Lookup">
     <Properties>
@@ -16244,6 +18001,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Data Flow DIM_Customer\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow DIM_Customer\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -16402,6 +18172,164 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
+    design-time-name="Package\Data Flow DIM_OrderPriority">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="140,41.6"
+          Id="Package\Data Flow DIM_OrderPriority\Excel Source"
+          TopLeft="67.4999963119628,58.0666662628783" />
+        <NodeLayout
+          Size="161.6,41.6"
+          Id="Package\Data Flow DIM_OrderPriority\Script Component"
+          TopLeft="459.166641578907,104.866665937437" />
+        <NodeLayout
+          Size="126.4,41.6"
+          Id="Package\Data Flow DIM_OrderPriority\Aggregate"
+          TopLeft="282.499984564881,87.5333327246375" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Data Flow DIM_OrderPriority\OLE DB Destination"
+          TopLeft="393.333311842548,235.733331694073" />
+        <EdgeLayout
+          Id="Package\Data Flow DIM_OrderPriority.Paths[Output 0]"
+          TopLeft="539.966641578907,146.466665937437">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-61.0333297363587,89.2666657566362"
+              Start="0,0"
+              End="-61.0333297363587,81.7666657566362">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,40.6333328783181" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,40.6333328783181"
+                    Point2="0,44.6333328783181"
+                    Point3="-4,44.6333328783181" />
+                  <mssgle:LineSegment
+                    End="-57.0333297363587,44.6333328783181" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-57.0333297363587,44.6333328783181"
+                    Point2="-61.0333297363587,44.6333328783181"
+                    Point3="-61.0333297363587,48.6333328783181" />
+                  <mssgle:LineSegment
+                    End="-61.0333297363587,81.7666657566362" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow DIM_OrderPriority.Paths[Excel Source Output]"
+          TopLeft="207.499996311963,78.8666662628783">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="74.9999882529184,29.4666664617591"
+              Start="0,0"
+              End="67.4999882529184,29.4666664617591">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="33.4999941264592,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="33.4999941264592,0"
+                    Point2="37.4999941264592,0"
+                    Point3="37.4999941264592,4" />
+                  <mssgle:LineSegment
+                    End="37.4999941264592,25.4666664617591" />
+                  <mssgle:CubicBezierSegment
+                    Point1="37.4999941264592,25.4666664617591"
+                    Point2="37.4999941264592,29.4666664617591"
+                    Point3="41.4999941264592,29.4666664617591" />
+                  <mssgle:LineSegment
+                    End="67.4999882529184,29.4666664617591" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow DIM_OrderPriority.Paths[Aggregate Output 1]"
+          TopLeft="408.899984564881,108.333332724637">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="50.2666570140261,17.3333332127995"
+              Start="0,0"
+              End="42.7666570140261,17.3333332127995">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="21.133328507013,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="21.133328507013,0"
+                    Point2="25.133328507013,0"
+                    Point3="25.133328507013,4" />
+                  <mssgle:LineSegment
+                    End="25.133328507013,13.3333332127995" />
+                  <mssgle:CubicBezierSegment
+                    Point1="25.133328507013,13.3333332127995"
+                    Point2="25.133328507013,17.3333332127995"
+                    Point3="29.133328507013,17.3333332127995" />
+                  <mssgle:LineSegment
+                    End="42.7666570140261,17.3333332127995" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow DIM_OrderPriority\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow DIM_OrderPriority\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
     design-time-name="Package\Data Flow DIM_Product">
     <LayoutInfo>
       <GraphLayout
@@ -16453,7 +18381,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16523,12 +18453,37 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow DIM_Product\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DIM_SubCategory]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Data Flow DIM_Product\Excel Source">
     <Properties>
@@ -16997,7 +18952,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-9.84138818651436,5,96.3827734375,11.609375"
+              BoundingBox="-9.84138818651435,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -17114,10 +19069,295 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
+    design-time-name="Package\Data Flow SaleFact">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Data Flow SaleFact\OLE DB Destination"
+          TopLeft="96.9999985545874,282.999995782971" />
+        <NodeLayout
+          Size="176,41.6"
+          Id="Package\Data Flow SaleFact\Lookup Order priority"
+          TopLeft="443.999993383885,278.999995842576" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\Data Flow SaleFact\Lookup Location"
+          TopLeft="680.999989852309,282.999995782971" />
+        <NodeLayout
+          Size="140,41.6"
+          Id="Package\Data Flow SaleFact\Excel Source"
+          TopLeft="119.999998211861,72.9999989122152" />
+        <NodeLayout
+          Size="138.4,41.6"
+          Id="Package\Data Flow SaleFact\Lookup Time"
+          TopLeft="707.999989449978,189.999997168779" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Data Flow SaleFact\Sort"
+          TopLeft="286.999995723367,249.199996334314" />
+        <EdgeLayout
+          Id="Package\Data Flow SaleFact.Paths[Sort Output]"
+          TopLeft="286.999995723367,260.499995782971">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-104.399997168779,22.5"
+              Start="0,0"
+              End="-104.399997168779,15">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-100.399997168779,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-100.399997168779,0"
+                    Point2="-104.399997168779,0"
+                    Point3="-104.399997168779,4" />
+                  <mssgle:LineSegment
+                    End="-104.399997168779,15" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow SaleFact.Paths[Lookup Match Output2]"
+          TopLeft="443.999993383885,299.799995842576">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-59.3999976605178,-29.7999995082616"
+              Start="0,0"
+              End="-51.8999976605178,-29.7999995082616">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-25.6999988302589,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-25.6999988302589,0"
+                    Point2="-29.6999988302589,0"
+                    Point3="-29.6999988302589,-4" />
+                  <mssgle:LineSegment
+                    End="-29.6999988302589,-25.7999995082616" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-29.6999988302589,-25.7999995082616"
+                    Point2="-29.6999988302589,-29.7999995082616"
+                    Point3="-33.6999988302589,-29.7999995082616" />
+                  <mssgle:LineSegment
+                    End="-51.8999976605178,-29.7999995082616" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-77.8913855490089,1,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow SaleFact.Paths[Lookup Match Output1]"
+          TopLeft="777.199989449978,231.599997168779">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-18.9999995976689,51.399998614192"
+              Start="0,0"
+              End="-18.9999995976689,43.899998614192">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.699999307096" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.699999307096"
+                    Point2="0,25.699999307096"
+                    Point3="-4,25.699999307096" />
+                  <mssgle:LineSegment
+                    End="-14.9999995976689,25.699999307096" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-14.9999995976689,25.699999307096"
+                    Point2="-18.9999995976689,25.699999307096"
+                    Point3="-18.9999995976689,29.699999307096" />
+                  <mssgle:LineSegment
+                    End="-18.9999995976689,43.899998614192" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-57.6913865175845,30.699999307096,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow SaleFact.Paths[Lookup Match Output]"
+          TopLeft="680.999989852309,301.799995812774">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-60.9999964684248,0"
+              Start="0,0"
+              End="-53.4999964684248,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-53.4999964684248,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-74.9413849529624,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow SaleFact.Paths[Excel Source Output]"
+          TopLeft="189.999998211861,114.599998912215">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="587.199991238118,75.3999982565641"
+              Start="0,0"
+              End="587.199991238118,67.8999982565641">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33.6999991282821" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,33.6999991282821"
+                    Point2="0,37.6999991282821"
+                    Point3="4,37.6999991282821" />
+                  <mssgle:LineSegment
+                    End="583.199991238118,37.6999991282821" />
+                  <mssgle:CubicBezierSegment
+                    Point1="583.199991238118,37.6999991282821"
+                    Point2="587.199991238118,37.6999991282821"
+                    Point3="587.199991238118,41.6999991282821" />
+                  <mssgle:LineSegment
+                    End="587.199991238118,67.8999982565641" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow SaleFact\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow SaleFact\Lookup Order priority">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DIM_OrderPriority]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow SaleFact\Lookup Location">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DIM_Location]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow SaleFact\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow SaleFact\Lookup Time">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DIM_Time]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
     design-time-name="Package\Data Flow Segment">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="171.2,41.6"
           Id="Package\Data Flow Segment\OLE DB Destination"
@@ -17165,7 +19405,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17199,7 +19441,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17233,7 +19477,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -17266,264 +19512,124 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Data Flow DIM_OrderPriority">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="140,41.6"
-          Id="Package\Data Flow DIM_OrderPriority\Excel Source"
-          TopLeft="67.4999963119628,58.0666662628783" />
-        <NodeLayout
-          Size="161.6,41.6"
-          Id="Package\Data Flow DIM_OrderPriority\Script Component"
-          TopLeft="459.166641578907,104.866665937437" />
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Data Flow DIM_OrderPriority\OLE DB Destination"
-          TopLeft="393.333311842548,235.733331694073" />
-        <EdgeLayout
-          Id="Package\Data Flow DIM_OrderPriority.Paths[Output 0]"
-          TopLeft="539.966641578907,146.466665937437">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-61.0333297363587,89.2666657566362"
-              Start="0,0"
-              End="-61.0333297363587,81.7666657566362">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,40.6333328783181" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,40.6333328783181"
-                    Point2="0,44.6333328783181"
-                    Point3="-4,44.6333328783181" />
-                  <mssgle:LineSegment
-                    End="-57.0333297363587,44.6333328783181" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-57.0333297363587,44.6333328783181"
-                    Point2="-61.0333297363587,44.6333328783181"
-                    Point3="-61.0333297363587,48.6333328783181" />
-                  <mssgle:LineSegment
-                    End="-61.0333297363587,81.7666657566362" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="126.4,41.6"
-          Id="Package\Data Flow DIM_OrderPriority\Aggregate"
-          TopLeft="282.499984564881,87.5333327246375" />
-        <EdgeLayout
-          Id="Package\Data Flow DIM_OrderPriority.Paths[Excel Source Output]"
-          TopLeft="207.499996311963,78.8666662628783">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="74.9999882529184,29.4666664617591"
-              Start="0,0"
-              End="67.4999882529184,29.4666664617591">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="33.4999941264592,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="33.4999941264592,0"
-                    Point2="37.4999941264592,0"
-                    Point3="37.4999941264592,4" />
-                  <mssgle:LineSegment
-                    End="37.4999941264592,25.4666664617591" />
-                  <mssgle:CubicBezierSegment
-                    Point1="37.4999941264592,25.4666664617591"
-                    Point2="37.4999941264592,29.4666664617591"
-                    Point3="41.4999941264592,29.4666664617591" />
-                  <mssgle:LineSegment
-                    End="67.4999882529184,29.4666664617591" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow DIM_OrderPriority.Paths[Aggregate Output 1]"
-          TopLeft="408.899984564881,108.333332724637">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="50.2666570140261,17.3333332127995"
-              Start="0,0"
-              End="42.7666570140261,17.3333332127995">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="21.133328507013,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="21.133328507013,0"
-                    Point2="25.133328507013,0"
-                    Point3="25.133328507013,4" />
-                  <mssgle:LineSegment
-                    End="25.133328507013,13.3333332127995" />
-                  <mssgle:CubicBezierSegment
-                    Point1="25.133328507013,13.3333332127995"
-                    Point2="25.133328507013,17.3333332127995"
-                    Point3="29.133328507013,17.3333332127995" />
-                  <mssgle:LineSegment
-                    End="42.7666570140261,17.3333332127995" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow DIM_OrderPriority\Excel Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow DIM_OrderPriority\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Data Flow SaleFact">
+    design-time-name="Package\Data Flow ShippingFact">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="140,41.6"
-          Id="Package\Data Flow SaleFact\Excel Source"
-          TopLeft="119.999998211861,72.9999989122152" />
-        <NodeLayout
-          Size="176,41.6"
-          Id="Package\Data Flow SaleFact\Lookup Order priority"
-          TopLeft="443.999993383885,278.999995842576" />
-        <NodeLayout
-          Size="154.4,41.6"
-          Id="Package\Data Flow SaleFact\Lookup Location"
-          TopLeft="680.999989852309,282.999995782971" />
-        <EdgeLayout
-          Id="Package\Data Flow SaleFact.Paths[Lookup Match Output]"
-          TopLeft="680.999989852309,301.799995812774">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-60.9999964684248,0"
-              Start="0,0"
-              End="-53.4999964684248,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-53.4999964684248,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-74.9413849529624,5,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
           Size="138.4,41.6"
-          Id="Package\Data Flow SaleFact\Lookup Time"
-          TopLeft="707.999989449978,189.999997168779" />
+          Id="Package\Data Flow ShippingFact\Excel Source"
+          TopLeft="198.030612620685,145.331932650541" />
+        <NodeLayout
+          Size="112.8,41.6"
+          Id="Package\Data Flow ShippingFact\Lookup"
+          TopLeft="642.871429866918,207.170588236634" />
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\Data Flow ShippingFact\Lookup Location"
+          TopLeft="400.651021233158,120.646218475521" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Data Flow ShippingFact\Sort"
+          TopLeft="214.122222588838,220.234640601821" />
         <EdgeLayout
-          Id="Package\Data Flow SaleFact.Paths[Lookup Match Output1]"
-          TopLeft="777.199989449978,231.599997168779">
+          Id="Package\Data Flow ShippingFact.Paths[Lookup Match Output1]"
+          TopLeft="642.871429866918,227.970588236634">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-18.9999995976689,51.399998614192"
+              EndConnector="-331.149207278079,13.0640523651868"
               Start="0,0"
-              End="-18.9999995976689,43.899998614192">
+              End="-323.649207278079,13.0640523651868">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.699999307096" />
+                    End="-161.57460363904,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,21.699999307096"
-                    Point2="0,25.699999307096"
-                    Point3="-4,25.699999307096" />
+                    Point1="-161.57460363904,0"
+                    Point2="-165.57460363904,0"
+                    Point3="-165.57460363904,4" />
                   <mssgle:LineSegment
-                    End="-14.9999995976689,25.699999307096" />
+                    End="-165.57460363904,9.0640523651868" />
                   <mssgle:CubicBezierSegment
-                    Point1="-14.9999995976689,25.699999307096"
-                    Point2="-18.9999995976689,25.699999307096"
-                    Point3="-18.9999995976689,29.699999307096" />
+                    Point1="-165.57460363904,9.0640523651868"
+                    Point2="-165.57460363904,13.0640523651868"
+                    Point3="-169.57460363904,13.0640523651868" />
                   <mssgle:LineSegment
-                    End="-18.9999995976689,43.899998614192" />
+                    End="-323.649207278079,13.0640523651868" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-57.6913865175844,30.699999307096,96.3827734375,11.609375"
+              BoundingBox="-213.76599035779,-17.609375,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow SaleFact.Paths[Excel Source Output]"
-          TopLeft="189.999998211861,114.599998912215">
+          Id="Package\Data Flow ShippingFact.Paths[Lookup Match Output]"
+          TopLeft="478.251021233158,162.246218475521">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="587.199991238118,75.3999982565641"
+              EndConnector="221.02040863376,44.9243697611134"
               Start="0,0"
-              End="587.199991238118,67.8999982565641">
+              End="221.02040863376,37.4243697611134">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,33.6999991282821" />
+                    End="0,18.4621848805567" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,33.6999991282821"
-                    Point2="0,37.6999991282821"
-                    Point3="4,37.6999991282821" />
+                    Point1="0,18.4621848805567"
+                    Point2="0,22.4621848805567"
+                    Point3="4,22.4621848805567" />
                   <mssgle:LineSegment
-                    End="583.199991238118,37.6999991282821" />
+                    End="217.02040863376,22.4621848805567" />
                   <mssgle:CubicBezierSegment
-                    Point1="583.199991238118,37.6999991282821"
-                    Point2="587.199991238118,37.6999991282821"
-                    Point3="587.199991238118,41.6999991282821" />
+                    Point1="217.02040863376,22.4621848805567"
+                    Point2="221.02040863376,22.4621848805567"
+                    Point3="221.02040863376,26.4621848805567" />
                   <mssgle:LineSegment
-                    End="587.199991238118,67.8999982565641" />
+                    End="221.02040863376,37.4243697611134" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="62.3188175981299,27.4621848805567,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow ShippingFact.Paths[Excel Source Output]"
+          TopLeft="336.430612620685,166.131932650541">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="64.2204086124724,-24.6857141750201"
+              Start="0,0"
+              End="56.7204086124724,-24.6857141750201">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="28.1102043062362,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="28.1102043062362,0"
+                    Point2="32.1102043062362,0"
+                    Point3="32.1102043062362,-4" />
+                  <mssgle:LineSegment
+                    End="32.1102043062362,-20.6857141750201" />
+                  <mssgle:CubicBezierSegment
+                    Point1="32.1102043062362,-20.6857141750201"
+                    Point2="32.1102043062362,-24.6857141750201"
+                    Point3="36.1102043062362,-24.6857141750201" />
+                  <mssgle:LineSegment
+                    End="56.7204086124724,-24.6857141750201" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17533,69 +19639,99 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Data Flow SaleFact\Sort"
-          TopLeft="286.999995723367,249.199996334314" />
+          Size="152.8,41.6"
+          Id="Package\Data Flow ShippingFact\Derived Column"
+          TopLeft="147.61904793329,285.490195828188" />
         <EdgeLayout
-          Id="Package\Data Flow SaleFact.Paths[Lookup Match Output2]"
-          TopLeft="443.999993383885,299.799995842576">
+          Id="Package\Data Flow ShippingFact.Paths[Sort Output]"
+          TopLeft="262.922222588838,261.834640601821">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-59.3999976605178,-29.7999995082616"
+              EndConnector="-38.9031746555484,23.6555552263668"
               Start="0,0"
-              End="-51.8999976605178,-29.7999995082616">
+              End="-38.9031746555484,16.1555552263668">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-25.6999988302589,0" />
+                    End="0,7.8277776131834" />
                   <mssgle:CubicBezierSegment
-                    Point1="-25.6999988302589,0"
-                    Point2="-29.6999988302589,0"
-                    Point3="-29.6999988302589,-4" />
+                    Point1="0,7.8277776131834"
+                    Point2="0,11.8277776131834"
+                    Point3="-4,11.8277776131834" />
                   <mssgle:LineSegment
-                    End="-29.6999988302589,-25.7999995082616" />
+                    End="-34.9031746555484,11.8277776131834" />
                   <mssgle:CubicBezierSegment
-                    Point1="-29.6999988302589,-25.7999995082616"
-                    Point2="-29.6999988302589,-29.7999995082616"
-                    Point3="-33.6999988302589,-29.7999995082616" />
+                    Point1="-34.9031746555484,11.8277776131834"
+                    Point2="-38.9031746555484,11.8277776131834"
+                    Point3="-38.9031746555484,15.8277776131834" />
                   <mssgle:LineSegment
-                    End="-51.8999976605178,-29.7999995082616" />
+                    End="-38.9031746555484,16.1555552263668" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-77.8913855490089,1,96.3827734375,11.609375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Data Flow SaleFact\OLE DB Destination"
-          TopLeft="96.9999985545874,282.999995782971" />
+          Size="162.4,41.6"
+          Id="Package\Data Flow ShippingFact\Derived Column 1"
+          TopLeft="422.222223121022,311.660130476159" />
         <EdgeLayout
-          Id="Package\Data Flow SaleFact.Paths[Sort Output]"
-          TopLeft="286.999995723367,260.499995782971">
+          Id="Package\Data Flow ShippingFact.Paths[Derived Column Output]"
+          TopLeft="300.41904793329,306.290195828188">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-104.399997168779,22.5"
+              EndConnector="121.803175187733,26.1699346479706"
               Start="0,0"
-              End="-104.399997168779,15">
+              End="114.303175187733,26.1699346479706">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-100.399997168779,0" />
+                    End="56.9015875938663,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="-100.399997168779,0"
-                    Point2="-104.399997168779,0"
-                    Point3="-104.399997168779,4" />
+                    Point1="56.9015875938663,0"
+                    Point2="60.9015875938663,0"
+                    Point3="60.9015875938663,4" />
                   <mssgle:LineSegment
-                    End="-104.399997168779,15" />
+                    End="60.9015875938663,22.1699346479706" />
+                  <mssgle:CubicBezierSegment
+                    Point1="60.9015875938663,22.1699346479706"
+                    Point2="60.9015875938663,26.1699346479706"
+                    Point3="64.9015875938663,26.1699346479706" />
+                  <mssgle:LineSegment
+                    End="114.303175187733,26.1699346479706" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Data Flow ShippingFact\OLE DB Destination"
+          TopLeft="654.761906155721,316.013071684655" />
+        <EdgeLayout
+          Id="Package\Data Flow ShippingFact.Paths[Derived Column Output1]"
+          TopLeft="584.622223121022,334.636601080407">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="70.1396830346985,0"
+              Start="0,0"
+              End="62.6396830346985,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="62.6396830346985,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17608,7 +19744,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow SaleFact\Excel Source">
+    design-time-name="Package\Data Flow ShippingFact\Excel Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -17621,7 +19757,53 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow SaleFact\OLE DB Destination">
+    design-time-name="Package\Data Flow ShippingFact\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DIM_Time]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow ShippingFact\Lookup Location">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DIM_Location]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow ShippingFact\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
